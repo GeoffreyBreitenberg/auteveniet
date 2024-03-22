@@ -1,0 +1,31 @@
+{
+  "name": "auteveniet",
+  "version": "1.0.0",
+  "description": "A CLI for the ethdeploy contract staging facility.",
+  "main": "index.js",
+  "bin": {
+    "ethdeploy": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeoffreyBreitenberg/auteveniet.git"
+  },
+  "keywords": [
+    "ethdeploy",
+    "ethereum",
+    "eth",
+    "solidity",
+    "contract"
+  ],
+  "author": "LilianaNolan",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "ethereumjs-testrpc": "^2.0.8"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "meow": "^3.7.0",
+    "ethdeploy": "0.1.2"
+  }
+}
